@@ -1,0 +1,300 @@
+$Family: Verdana, Geneva, Tahoma, sans-serif;
+$Default-color: white;
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after,*::before {
+    content: "";
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.938);
+    background-size: cover;
+}
+section {
+    display: inline-flex;
+}
+
+h1 {
+    font-family: $Family;
+    color: $Default-color;
+    font-size: 40px;
+    margin-left: 20px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+
+    li {
+        a {
+            color:$Default-color;
+            text-decoration: none;
+            font-family: $Family;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        margin-left: 2pc;
+        position: relative;
+        top: 42%;
+        left: 0;
+
+        a:hover {
+            color: rgb(240, 239, 239);
+            text-shadow: -2px 5px 6px white;
+            transition: .3s ease-in-out;
+        }
+    }
+}
+
+.Search_Bar {
+    transform: translate(4pc,2.5pc);
+
+    input[type='search'] {
+        background-color: rgb(211, 211, 211);
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        padding: 10px 4.5rem 10px 1rem;
+    }
+    img {
+        position: relative;
+        right: 3pc;
+        top: .4pc;
+    }
+}
+
+.Materials {
+    text-align: center;
+    font-size: 30px;
+    transform: translateY(-20px);
+    text-decoration: underline;
+}
+
+.First_container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto
+    auto auto;
+    grid-gap: 35px;
+}
+
+.First_container > div {
+    border: 1px solid lightgray;
+    box-shadow: 3px 2px 10px white;
+    width: 99%;
+}
+.First_container > div:hover {
+    transition: .5s;
+    box-shadow: -10px 10px 10px white;
+}
+
+p.bools {
+    color: white;
+    font-family: $Family;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+} 
+p#bools_price {
+    color: white;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 3.8pc;
+}
+
+p.lefting_machine {
+    color: white;
+    font-family: $Family;
+    width: 99%;
+    text-align: center;
+    font-weight: bold;
+}
+
+p#left_price {
+    color: white;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+p.Running_Machinre {
+    color: white;
+    font-family: $Family;
+    width: 100%;
+    text-align: start;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+p#RM_Price {
+    color: white;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.2pc;
+}
+
+p.S_Machine {
+    color: white;
+    font-family: $Family;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+p#S_Price {
+    color: white;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1.2pc;
+}
+
+.Second_container {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 35px;
+}
+
+.Second_container > div {
+    border: 1px solid lightgray;
+    box-shadow: 3px 2px 10px white;
+    width: 99%;
+    transform: translateX(-3px);
+}
+
+.Second_container > div:hover {
+    transition: .5s;
+    box-shadow: -10px 10px 10px white;
+}
+
+p.collection {
+    color: white;
+    font-family: $Family;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+p#Collection_Price {
+    color: white;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1pc;
+}
+
+p.cycle {
+    color: white;
+    font-family: $Family;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+p#cycle_Price {
+    color: white;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 2pc;
+}
+
+.torso_M {
+    color: white;
+    font-family: $Family;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+p#W_Price {
+    color: white;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1pc;
+}
+
+p.PC {
+    color: white;
+    font-family: $Family;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+p#PC_Price {
+    color: white;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4pc;
+}
+
+.proteine {
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    transform: translateY(13px);
+}
+
+.Proteines_products {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-gap: 35px;
+}
+
+.Proteines_products > div {
+    border: 1px solid lightgray;
+    box-shadow: 3px 2px 10px white;
+    width: 99%;
+    transform: translateX(6px);
+}
+
+.Proteines_products > div:hover {
+    transition: .5s;
+    box-shadow: -10px 10px 10px white;
+}
+
+.Price_1, .Price_2, .Price_3, .Price_4 {
+    color: white;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px 3.5pc 15px 3.5pc;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 3px solid rgb(151, 149, 149);
+    margin: 40px 0 30px 36.8pc;
+    font-weight: bold;
+    font-family: $Family;
+}
+
+button:hover {
+    background-color: rgb(156, 154, 154);
+    color: black;
+    transition: .4s;
+}

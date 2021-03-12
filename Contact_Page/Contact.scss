@@ -1,0 +1,95 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    overflow: hidden;
+}
+
+section {
+    display: inline-flex;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 40px;
+    position: relative;
+    left: 30.3pc;
+    bottom: 1pc;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    bottom: 2.4pc;
+}
+
+.contact_zone {
+    transform: translateY(-3pc);
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 20px 10pc 20px 1pc;
+    margin: 30px 0 0 10rem;
+    border: 3px solid lightgrey;
+}
+
+input:focus {
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: -10px 10px 10px white;
+    transition: .5s;
+}
+
+
+input#Message {
+    padding: 10px 46.5pc 10pc 10px;
+}
+
+button[type='submit'] {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 15px 3.5pc 15px 3.5pc;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: 3px solid rgb(151, 149, 149);
+    margin: -1.3pc 0 30px 35.5pc;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button[type='submit']:hover {
+    background-color: rgb(156, 154, 154);
+    border: 3px solid white;
+    color: black;
+    transition: .4s;
+}
+
+p#TH {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-top: -1pc;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

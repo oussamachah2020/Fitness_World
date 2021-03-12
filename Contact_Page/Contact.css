@@ -1,0 +1,103 @@
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::after, *::before {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background-color: black;
+  background-size: cover;
+  overflow: hidden;
+}
+
+section {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 40px;
+  position: relative;
+  left: 30.3pc;
+  bottom: 1pc;
+}
+
+h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  position: relative;
+  bottom: 2.4pc;
+}
+
+.contact_zone {
+  -webkit-transform: translateY(-3pc);
+          transform: translateY(-3pc);
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 20px 10pc 20px 1pc;
+  margin: 30px 0 0 10rem;
+  border: 3px solid lightgrey;
+}
+
+input:focus {
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -webkit-box-shadow: -10px 10px 10px white;
+          box-shadow: -10px 10px 10px white;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+input#Message {
+  padding: 10px 46.5pc 10pc 10px;
+}
+
+button[type='submit'] {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 15px 3.5pc 15px 3.5pc;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 3px solid #979595;
+  margin: -1.3pc 0 30px 35.5pc;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button[type='submit']:hover {
+  background-color: #9c9a9a;
+  border: 3px solid white;
+  color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+p#TH {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: -1pc;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*# sourceMappingURL=Contact.css.map */

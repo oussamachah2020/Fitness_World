@@ -1,0 +1,149 @@
+$Family: Verdana, Geneva, Tahoma, sans-serif;
+$Default-color: white;
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*::after,*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background: black;
+    background-size: cover;
+    overflow: hidden;
+}
+
+section {
+    display: inline-flex;
+}
+
+h1 {
+    font-family: $Family;
+    color: $Default-color;
+    font-size: 40px;
+    margin-left: 20px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+ul {
+    display: inline-flex;
+    list-style: none;
+
+    li {
+        a {
+            color:$Default-color;
+            text-decoration: none;
+            font-family: $Family;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        margin-left: 2pc;
+        position: relative;
+        top: 42%;
+        left: 0;
+
+        a:hover {
+            color: rgb(240, 239, 239);
+            text-shadow: -2px 5px 6px white;
+            transition: .3s ease-in-out;
+        }
+    }
+}
+
+.Search_Bar {
+    transform: translate(4pc,2.5pc);
+
+    input[type='search'] {
+        background-color: rgb(211, 211, 211);
+        border: none;
+        outline: none;
+        border-radius: 20px;
+        padding: 10px 4.5rem 10px 1rem;
+    }
+    img {
+        position: relative;
+        right: 3pc;
+        top: .4pc;
+    }
+}
+
+.container {
+    img {
+        position: relative;
+        right: 2pc;
+        bottom: 0;
+    }
+    img#Logo {
+        position: relative;
+        right: 1pc;
+    }
+}
+footer {
+    input[type="email"] {
+        margin: -5pc 0 0 3.5pc;
+        border: none;
+        outline: none;
+        padding: 16px 17rem 16px 1rem;
+        border: 3px solid rgb(151, 149, 149);
+        border-top-left-radius: 3px;
+        border-bottom-left-radius: 3px;
+        border-right: none;
+    }
+    ::placeholder {
+        color: black;
+        font-size: 15px;
+        font-family: $Family;
+    }
+
+    button[type='submit'] {
+        cursor: pointer;
+        border: none;
+        outline: none;
+        padding: 15px 3.5pc 15px 3.5pc;
+        border-top-right-radius: 3px;
+        border-bottom-right-radius: 3px;
+        border: 3px solid rgb(151, 149, 149);
+        transform: translateX(-10px);
+        font-weight: bold;
+        font-family: $Family;
+    }
+
+    button[type='submit']:hover {
+        background-color: lightgrey;
+        color: black;
+    }
+}
+
+span#Message {
+    color: $Default-color;
+    font-family: $Family;
+    font-weight: bold;
+    text-align: start;
+    margin: 20px 0 0 3.7pc;
+}
+
+span#required {
+    color: rgb(240, 142, 142);
+    font-family: $Family;
+    font-weight: bold;
+    text-align: start;
+    margin-top: 20px;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.466);
+    text-align: center;
+    font-family: $Family;
+    font-weight: bold;
+    padding-top: 8px;
+}

@@ -1,0 +1,329 @@
+html {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*::after, *::before {
+  content: "";
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.938);
+  background-size: cover;
+}
+
+section {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  font-size: 40px;
+  margin-left: 20px;
+}
+
+h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+}
+
+ul li {
+  margin-left: 2pc;
+  position: relative;
+  top: 42%;
+  left: 0;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+ul li a:hover {
+  color: #f0efef;
+  text-shadow: -2px 5px 6px white;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+.Search_Bar {
+  -webkit-transform: translate(4pc, 2.5pc);
+          transform: translate(4pc, 2.5pc);
+}
+
+.Search_Bar input[type='search'] {
+  background-color: lightgray;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px 4.5rem 10px 1rem;
+}
+
+.Search_Bar img {
+  position: relative;
+  right: 3pc;
+  top: .4pc;
+}
+
+.Materials {
+  text-align: center;
+  font-size: 30px;
+  -webkit-transform: translateY(-20px);
+          transform: translateY(-20px);
+  text-decoration: underline;
+}
+
+.First_container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto auto auto;
+  grid-gap: 35px;
+}
+
+.First_container > div {
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 3px 2px 10px white;
+          box-shadow: 3px 2px 10px white;
+  width: 99%;
+}
+
+.First_container > div:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-box-shadow: -10px 10px 10px white;
+          box-shadow: -10px 10px 10px white;
+}
+
+p.bools {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+p#bools_price {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 3.8pc;
+}
+
+p.lefting_machine {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 99%;
+  text-align: center;
+  font-weight: bold;
+}
+
+p#left_price {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+p.Running_Machinre {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: start;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+p#RM_Price {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1.2pc;
+}
+
+p.S_Machine {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+p#S_Price {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1.2pc;
+}
+
+.Second_container {
+  padding-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 35px;
+}
+
+.Second_container > div {
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 3px 2px 10px white;
+          box-shadow: 3px 2px 10px white;
+  width: 99%;
+  -webkit-transform: translateX(-3px);
+          transform: translateX(-3px);
+}
+
+.Second_container > div:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-box-shadow: -10px 10px 10px white;
+          box-shadow: -10px 10px 10px white;
+}
+
+p.collection {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+p#Collection_Price {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1pc;
+}
+
+p.cycle {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+p#cycle_Price {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 2pc;
+}
+
+.torso_M {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+p#W_Price {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 1pc;
+}
+
+p.PC {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+p#PC_Price {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 4pc;
+}
+
+.proteine {
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+  -webkit-transform: translateY(13px);
+          transform: translateY(13px);
+}
+
+.Proteines_products {
+  padding-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 35px;
+}
+
+.Proteines_products > div {
+  border: 1px solid lightgray;
+  -webkit-box-shadow: 3px 2px 10px white;
+          box-shadow: 3px 2px 10px white;
+  width: 99%;
+  -webkit-transform: translateX(6px);
+          transform: translateX(6px);
+}
+
+.Proteines_products > div:hover {
+  -webkit-transition: .5s;
+  transition: .5s;
+  -webkit-box-shadow: -10px 10px 10px white;
+          box-shadow: -10px 10px 10px white;
+}
+
+.Price_1, .Price_2, .Price_3, .Price_4 {
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  padding: 15px 3.5pc 15px 3.5pc;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: 3px solid #979595;
+  margin: 40px 0 30px 36.8pc;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button:hover {
+  background-color: #9c9a9a;
+  color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+/*# sourceMappingURL=tools.css.map */
